@@ -11,6 +11,7 @@ This script invokes Dell switch configuration using SSH
 .EXAMPLE
 PS>.\switch_config_backup.ps1
 #>
+
 $user = "admin"
 
 try {   
