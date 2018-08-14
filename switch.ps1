@@ -1,3 +1,16 @@
+###########################################################################
+# Module Name  : Dell_Switch_Configuration_Backup
+# Script Name  : switch_config_backup.ps1
+# Author       : Abhishek Agarwal
+# Version      : 0.1
+# Last Modified: 14/08/2018 (ddMMyyyy)
+###########################################################################
+<#
+.SYNOPSIS
+This script invokes Dell switch configuration using SSH
+.EXAMPLE
+PS>.\switch_config_backup.ps1
+#>
 $user = "admin"
 
 try {   
